@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>The Saidhya Palace</title>
+
+  <style>
+    body {
+      font-family: 'Georgia', serif;
+      margin:0;
+      background:#f8f8f8;
+    }
+
+    .hero {
+      background:url('https://images.unsplash.com/photo-1566073771259-6a8506099945');
+      background-size:cover;
+      background-position:center;
+      height:300px;
+      color:white;
+      display:flex;
+      flex-direction:column;
+      justify-content:center;
+      align-items:center;
+      text-shadow:2px 2px 5px black;
+    }
+
+    header {
+      background:black;
+      color:gold;
+      padding:15px;
+      text-align:center;
+    }
+
+    nav {
+      background:#111;
+      padding:12px;
+      text-align:center;
+    }
+
+    nav a {
+      color:gold;
+      margin:15px;
+      text-decoration:none;
+      font-weight:bold;
+    }
+
+    .section {
+      padding:30px;
+      text-align:center;
+    }
+
+    .room {
+      border:1px solid #ddd;
+      background:white;
+      padding:20px;
+      margin:15px;
+      border-radius:10px;
+      box-shadow:0 0 10px rgba(0,0,0,0.1);
+    }
+
+    /* Gallery */
+    .gallery {
+      display:flex;
+      flex-wrap:wrap;
+      justify-content:center;
+    }
+
+    .gallery img {
+      width:300px;
+      height:200px;
+      object-fit:cover;
+      margin:10px;
+      border-radius:10px;
+      box-shadow:0 0 10px rgba(0,0,0,0.2);
+    }
+
+    button {
+      background:gold;
+      border:none;
+      padding:10px 20px;
+      font-weight:bold;
+      cursor:pointer;
+      border-radius:5px;
+    }
+
+    footer {
+      background:black;
+      color:white;
+      text-align:center;
+      padding:15px;
+    }
+
+    .whatsapp {
+      position:fixed;
+      bottom:20px;
+      right:20px;
+      background:green;
+      color:white;
+      padding:15px;
+      border-radius:50%;
+      text-decoration:none;
+      font-size:20px;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>The Saidhya Palace</h1>
+  <p>✨ Experience Royal Comfort ✨</p>
+</header>
+
+<nav>
+  <a href="#">Home</a>
+  <a href="#">Rooms</a>
+  <a href="#">Gallery</a>
+  <a href="#">Contact</a>
+</nav>
+
+<div class="hero">
+  <h1>Welcome to The Saidhya Palace</h1>
+  <p>Luxury Stay | Premium Rooms | Best Service</p>
+</div>
+
+<div class="section">
+  <h2>Our Luxury Rooms</h2>
+
+  <div class="room">
+    <h3>Deluxe Room</h3>
+    <p>Price: ₹2500/night</p>
+  </div>
+
+  <div class="room">
+    <h3>Royal Suite</h3>
+    <p>Price: ₹5000/night</p>
+  </div>
+</div>
+
+<!-- 📸 GALLERY SECTION -->
+<div class="section">
+  <h2>Room Gallery</h2>
+
+  <div class="gallery">
+    <img src="https://images.unsplash.com/photo-1501117716987-c8e1ecb210f9">
+    <img src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2">
+    <img src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b">
+    <img src="https://images.unsplash.com/photo-1611892440504-42a792e24d32">
+  </div>
+</div>
+
+<div class="section">
+  <h2>Book Your Stay</h2>
+
+  <form action="https://formsubmit.co/pgrashuak@gmail.com" method="POST">
+    <input type="text" name="name" placeholder="Your Name" required><br><br>
+    <input type="tel" name="phone" placeholder="Mobile Number" required><br><br>
+    <input type="date" name="checkin" required><br><br>
+    <input type="date" name="checkout" required><br><br>
+
+    <button type="submit">Confirm Booking</button>
+  </form>
+</div>
+
+<div class="section">
+  <h2>Contact Us</h2>
+  <p>📞 Call: 9839934509</p>
+  <p>📍 Location: Varanasi, Uttar Pradesh</p>
+</div>
+
+<a class="whatsapp" href="https://wa.me/919839934509">💬</a>
+
+<footer>
+  <p>© 2026 The Saidhya Palace | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
